@@ -32,7 +32,3 @@ src/
 ├── TerminalArte.Core      ← Algoritmos y lógica de las artes
 └── TerminalArte.Console   ← UI y renderización en la terminal
 ```
-
-## Autor
-
-Daniel Hoffmann
