@@ -1,57 +1,48 @@
-ðŸŒ [English](README.en.md) | [EspaÃ±ol](README.es.md)
+[>] [English](README.en.md) | [Espanol](README.es.md)
 
-# ðŸŽ¨ TerminalArte
+# {~} TerminalArte
 
-[![.NET CI](https://github.com/DanielHoffmannO/TerminalArte/actions/workflows/dotnet.yml/badge.svg)](https://github.com/DanielHoffmannO/TerminalArte/actions/workflows/dotnet.yml)
-![.NET 9](https://img.shields.io/badge/.NET-9.0-512BD4?logo=dotnet)
-![License MIT](https://img.shields.io/badge/License-MIT-green)
+[![.NET CI](https://github.com/DanielHoffmannO/TerminalArte/actions/workflows/dotnet.yml/badge.svg)](https://github.com/DanielHoffmannO/TerminalArte/actions)
+![.NET](https://img.shields.io/badge/.NET-9.0-512BD4?logo=dotnet)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-> AnimaÃ§Ãµes hipnotizantes e visualizaÃ§Ãµes artÃ­sticas direto no terminal.
+> Animacoes hipnotizantes e visualizacoes artisticas direto no terminal.
 
-## ðŸ–¼ï¸ Artes DisponÃ­veis
+## [#] Artes Disponiveis
 
-| Arte | DescriÃ§Ã£o |
+| Arte | O que faz |
 |------|-----------|
-| ðŸ“Š **Sorting Algorithms** | VisualizaÃ§Ã£o de Bubble Sort, Selection Sort, Insertion Sort e Quick Sort |
-| ðŸŸ¢ **Matrix Rain** | Efeito cascata de caracteres inspirado no filme Matrix |
-| ðŸ§¬ **Conway's Game of Life** | AutÃ´mato celular com padrÃµes emergentes |
-| ðŸ”¥ **Fire Effect** | SimulaÃ§Ã£o de fogo com propagaÃ§Ã£o de calor |
-| ðŸŽ¯ **Pinball** | SimulaÃ§Ã£o de pinball com fÃ­sica de colisÃ£o |
-| ðŸ§Š **Cubo 3D** | Cubo rotacionando em 3 dimensÃµes com projeÃ§Ã£o ASCII |
-| âœ¨ **Starfield** | Campo estelar com efeito de profundidade e velocidade |
+| `[|||]` **Sorting Algorithms** | Bubble, Selection, Insertion e Quick Sort visual |
+| `[///]` **Matrix Rain** | Cascata de caracteres estilo Matrix |
+| `[oOo]` **Conway's Game of Life** | Automato celular com padroes emergentes |
+| `[^^^]` **Fire Effect** | Simulacao de fogo com propagacao de calor |
+| `[*o*]` **Pinball** | Simulacao com fisica de colisao |
+| `[<>]` **Cubo 3D** | Cubo rotacionando com projecao ASCII |
+| `[...]` **Starfield** | Campo estelar com efeito de profundidade |
 
-## ðŸ› ï¸ Tech Stack
+## {=} Tech Stack
 
-- **.NET 9** â€” Console App
-- **C#** â€” Linguagem principal
-- **GitHub Actions** â€” CI/CD
+- .NET 9 / Console App
+- C# puro (sem dependencias externas)
+- GitHub Actions CI
 
-## ðŸš€ Como Rodar
+## [!] Como Rodar
 
 ```bash
-# Clone o repositÃ³rio
-git clone https://github.com/DanielHoffmannO/TerminalArte.git
-cd TerminalArte
-
-# Execute
-dotnet run
+dotnet run --project src/TerminalArte.Console
 ```
 
-## ðŸ—ï¸ Arquitetura
+## {/} Arquitetura
 
 ```
-TerminalArte/
-â”œâ”€â”€ Core/        â†’ Algoritmos e lÃ³gica das animaÃ§Ãµes
-â””â”€â”€ Console/     â†’ RenderizaÃ§Ã£o e interface no terminal
+src/
++-- TerminalArte.Core      <- Algoritmos e logica das animacoes
++-- TerminalArte.Console   <- Renderizacao e interface no terminal
 ```
 
-- **Core** â€” ContÃ©m a lÃ³gica pura de cada arte (sorting, simulaÃ§Ãµes, cÃ¡lculos 3D)
-- **Console** â€” ResponsÃ¡vel pela renderizaÃ§Ã£o dos frames no terminal
+- **Core** -- Logica pura de cada arte (sorting, simulacoes, calculos 3D)
+- **Console** -- Renderizacao dos frames no terminal
 
-## ðŸ“„ LicenÃ§a
+## [$] Licenca
 
-Este projeto estÃ¡ licenciado sob a [MIT License](LICENSE).
-
-## ðŸ‘¤ Autor
-
-**Daniel Hoffmann** â€” [GitHub](https://github.com/DanielHoffmannO)
+Este projeto esta sob a licenca [MIT](LICENSE).
