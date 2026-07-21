@@ -1,11 +1,34 @@
+using TerminalArte.Core.Artes.Aquario;
 using TerminalArte.Core.Artes.Barras;
 using TerminalArte.Core.Artes.Barras.Algorithms;
+using TerminalArte.Core.Artes.Boids;
+using TerminalArte.Core.Artes.Chuva;
 using TerminalArte.Core.Artes.Cubo3D;
+using TerminalArte.Core.Artes.Dna;
+using TerminalArte.Core.Artes.Dvd;
+using TerminalArte.Core.Artes.Espiral;
 using TerminalArte.Core.Artes.Fire;
+using TerminalArte.Core.Artes.Fogos;
+using TerminalArte.Core.Artes.Fractal;
 using TerminalArte.Core.Artes.GameOfLife;
+using TerminalArte.Core.Artes.Labirinto;
+using TerminalArte.Core.Artes.Lava;
 using TerminalArte.Core.Artes.Matrix;
+using TerminalArte.Core.Artes.Nebula;
+using TerminalArte.Core.Artes.Ondas;
+using TerminalArte.Core.Artes.Osciloscopio;
+using TerminalArte.Core.Artes.Particulas;
+using TerminalArte.Core.Artes.Pendulo;
 using TerminalArte.Core.Artes.Pinball;
+using TerminalArte.Core.Artes.Plasma;
+using TerminalArte.Core.Artes.Pong;
+using TerminalArte.Core.Artes.Raios;
+using TerminalArte.Core.Artes.Relogio;
+using TerminalArte.Core.Artes.Snake;
 using TerminalArte.Core.Artes.Starfield;
+using TerminalArte.Core.Artes.Tetris;
+using TerminalArte.Core.Artes.Tunel;
+using TerminalArte.Core.Artes.Typing;
 using TerminalArte.Core.Interfaces;
 
 Console.OutputEncoding = System.Text.Encoding.UTF8;
@@ -23,6 +46,29 @@ var artes = new List<IArte>
     new PinballArte(),
     new Cubo3DArte(),
     new StarfieldArte(),
+    new PlasmaArte(),
+    new SnakeArte(),
+    new RelogioArte(),
+    new EspiralArte(),
+    new AquarioArte(),
+    new TetrisArte(),
+    new LabirintoArte(),
+    new RaiosArte(),
+    new OsciloscopioArte(),
+    new ChuvaArte(),
+    new DnaArte(),
+    new FogosArte(),
+    new PongArte(),
+    new BoidsArte(),
+    new FractalArte(),
+    new TunelArte(),
+    new OndasArte(),
+    new TypingArte(),
+    new DvdArte(),
+    new ParticulasArte(),
+    new LavaArte(),
+    new PenduloArte(),
+    new NebulaArte(),
 };
 
 while (true)
